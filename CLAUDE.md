@@ -447,8 +447,8 @@ skill.
   needs no ask: `plan`, `helm template`, `helm diff`, `kubectl diff`,
   `--dry-run`, `get`/`describe`.
 - **My own GitHub repositories' settings are the exception**: labels,
-  merge methods, head-branch deletion, Pages and a public repository's
-  security features follow `github-repo-settings` and
+  merge methods, head-branch deletion, the default branch's ruleset, Pages
+  and a public repository's security features follow `github-repo-settings` and
   `github-actions-conventions` with no ask.
 
 ## Repositories that aren't mine

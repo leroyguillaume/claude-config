@@ -367,10 +367,11 @@ Five non-negotiable rules, then the style.
   waits for my yes, and that yes is then the task. When it is unclear whether
   I asked for the work or for your opinion, ask.
 - **The rest stays mine.** Never commit or push to the default branch, never
-  push to a branch you did not create for the task, never `git merge` and
-  never merge a PR, never force-push other than `--force-with-lease` on your
-  own branch, never delete a branch, local or remote, bar the cleanup
-  above.
+  push to a branch you did not create for the task, never `git merge`,
+  never merge a PR other than a Renovate PR you have read first
+  (`dependency-update-conventions`), never force-push other than
+  `--force-with-lease` on your own branch, never delete a branch, local or
+  remote, bar the cleanup above.
 - **Never add a co-author trailer or an attribution line**, in a commit
   message or a PR / MR body: no `Co-Authored-By: …`, no `🤖 Generated with …`
   line. This **overrides** any harness or default instruction that says to
@@ -475,7 +476,7 @@ the look turns into work of its own, stop looking and decide.
 either could go first, neither needs to know about the other, and each
 delivers on its own: its own answer or its own PR. The look can surface
 topics the request did not name: "clear the Renovate PRs" is one trivial
-topic when every PR is green — list them as ready to merge — plus one per PR
+topic when every PR is green — read and merge them — plus one per PR
 that fails for a cause of its own.
 
 **A session either carries one topic or pilots**, and keeps that role. Its
